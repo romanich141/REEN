@@ -1,0 +1,44 @@
+.latest-works {
+    &-item {  
+        & figure {
+            margin: 0;
+            text-align: center;
+            & img {
+                width: 100%;
+            }
+            & figcaption {
+                position: relative;
+                top: -2px;
+                padding: 20px 0;
+                background-color: #fff;
+            }
+        }
+    }
+}
+@media screen and (max-width:992px){
+    .latest-works {
+        &-item {  
+            & figure {
+                & figcaption {
+                    padding: 20px 0;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:756px){
+    .latest-works {
+        & .row {
+            flex-direction: column;
+        }
+        &-item {
+            width: 100%;
+            padding: 20px;  
+            & figure {
+                & figcaption {
+                    padding: 20px 0;
+                }
+            }
+        }
+    }
+}

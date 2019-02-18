@@ -1,0 +1,30 @@
+.subscribe {
+    & .btn {
+        font-size: 15px;
+        padding: 19px 25px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .subscribe {
+        & .btn {
+            padding: 15px 20px;
+            font-size: 16px;  
+        }
+    }
+}
+@media screen and (max-width:756px) {
+    .subscribe {
+        & .btn {
+            padding: 15px 18px;
+            font-size: 14px;  
+        }
+    }
+}
+@media screen and (max-width:576px) {
+    .subscribe {
+        & .btn {
+            padding: 10px;
+            font-size: 11px;
+        }
+    }
+}

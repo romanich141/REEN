@@ -1,0 +1,39 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -10px;
+}    
+.col-12 {
+    margin:10px;
+    width:calc(100% / 12 * 12 - 20px);
+}
+.col-10 {
+    margin:10px;
+    width:calc(100% / 12 * 10 - 20px);
+}
+.col-8 {
+    margin:10px;
+    width:calc(100% / 12 * 8 - 20px);
+}
+.col-6 {
+    margin:10px;
+    width:calc(100% / 12 * 6 - 20px);
+}
+.col-4 {
+    margin:10px;
+    width:calc(100% / 12 * 4 - 20px);
+}
+.col-3 {
+    margin:10px;
+    width:calc(100% / 12 * 3 - 20px);
+}
+.col-2 {
+    margin:10px;
+    width:calc(100% / 12 * 2 - 20px);
+}
+.col-1 {
+    margin:10px;
+    width:calc(100% / 12 - 20px);
+}
